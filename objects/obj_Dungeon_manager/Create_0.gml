@@ -4,14 +4,7 @@ dung_max_lenth = 20;
 dung_min_hight = 10;
 dung_max_hight = 20;
 
-door_left = true;
-door_right = true;
-door_forward = true;
-door_back = false;
-
-
 curent_room_Data = instance_find(obj_Room_Data, 0);
-
 
 grid_width = random_range(dung_min_lenth,dung_max_lenth);
 grid_height = random_range(dung_min_hight,dung_max_hight);
