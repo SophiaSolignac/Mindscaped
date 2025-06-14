@@ -1,20 +1,20 @@
 {
   "$GMRoom":"v1",
-  "%Name":"F0_Down0",
+  "%Name":"F2_Up2",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_410C85D5_1_1","path":"rooms/F0_Down0/F0_Down0.yy",},
+    {"name":"inst_410C85D5_1_1_2_1_1","path":"rooms/F2_Up2/F2_Up2.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_1B96163D","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_1B96163D","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Down","path":"sprites/Down/Down.yy",},"x":832.0,"y":128.0,},
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_78877B2C","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_78877B2C","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"Up","path":"sprites/Up/Up.yy",},"x":832.0,"y":160.0,},
       ],"depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_410C85D5_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_410C85D5_1_1","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"properties":[
+        {"$GMRInstance":"v2","%Name":"inst_410C85D5_1_1_2_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_410C85D5_1_1_2_1_1","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"targ_room_right","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resource":{"name":"F0_x0_y10","path":"rooms/F0_x0_y10/F0_x0_y10.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"F0_x0_y10",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"door_right","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"targ_room_forward","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resource":{"name":"F0_Up0","path":"rooms/F0_Up0/F0_Up0.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"F0_Up0",},
@@ -27,10 +27,10 @@
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"IMG_escalier","path":"sprites/IMG_escalier/IMG_escalier.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"F0_Down0",
+  "name":"F2_Up2",
   "parent":{
-    "name":"Etage 0",
-    "path":"folders/Rooms/Etage 0.yy",
+    "name":"Etage 2",
+    "path":"folders/Rooms/Etage 2.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

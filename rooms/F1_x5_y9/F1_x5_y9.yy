@@ -1,33 +1,31 @@
 {
   "$GMRoom":"v1",
-  "%Name":"F0_x1_y9",
+  "%Name":"F1_x5_y9",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_39856C3C_3","path":"rooms/F0_x1_y9/F0_x1_y9.yy",},
+    {"name":"inst_39856C3C_2_1_2_1_1_1_1_1","path":"rooms/F1_x5_y9/F1_x5_y9.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_39856C3C_3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39856C3C_3","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"targ_room_right","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resource":{"name":"F0_x1_y10","path":"rooms/F0_x1_y10/F0_x1_y10.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"F0_x1_y10",},
+        {"$GMRInstance":"v2","%Name":"inst_39856C3C_2_1_2_1_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39856C3C_2_1_2_1_1_1_1_1","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"targ_room_back","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resource":{"name":"F1_x4_y9","path":"rooms/F1_x4_y9/F1_x4_y9.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"F1_x4_y9",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"door_back","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"targ_room_right","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resource":{"name":"F1_x5_y10","path":"rooms/F1_x5_y10/F1_x5_y10.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"F1_x5_y10",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"door_right","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"targ_room_forward","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resource":{"name":"F0_x2_ym10","path":"rooms/F0_x2_ym10/F0_x2_ym10.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"F0_x2_ym10",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"targ_room_forward","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resource":{"name":"F2_Up2","path":"rooms/F2_Up2/F2_Up2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"F2_Up2",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"door_forward","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"targ_room_left","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resource":{"name":"F0_x2_ym10","path":"rooms/F0_x2_ym10/F0_x2_ym10.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"F0_x2_ym10",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"door_left","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"targ_room_back","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resource":{"name":"F0_x0_y10","path":"rooms/F0_x0_y10/F0_x0_y10.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"F0_x0_y10",},
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"door_back","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":52.0,"y":1152.0,},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":1184.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"IMG_011","path":"sprites/IMG_011/IMG_011.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"F0_x1_y9",
+  "name":"F1_x5_y9",
   "parent":{
-    "name":"Etage 0",
-    "path":"folders/Rooms/Etage 0.yy",
+    "name":"Etage 1",
+    "path":"folders/Rooms/Etage 1.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
