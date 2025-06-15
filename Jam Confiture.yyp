@@ -45,6 +45,7 @@
   },
   "name":"Jam Confiture",
   "resources":[
+    {"id":{"name":"Boock","path":"objects/Boock/Boock.yy",},},
     {"id":{"name":"obj_Dungeon_manager","path":"objects/obj_Dungeon_manager/obj_Dungeon_manager.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_entity","path":"objects/obj_entity/obj_entity.yy",},},
@@ -102,6 +103,7 @@
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},},
     {"id":{"name":"spr_lifebar","path":"sprites/spr_lifebar/spr_lifebar.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"TurnPage","path":"sprites/TurnPage/TurnPage.yy",},},
     {"id":{"name":"Up","path":"sprites/Up/Up.yy",},},
   ],
   "resourceType":"GMProject",
