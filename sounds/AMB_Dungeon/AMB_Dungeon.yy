@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"AMB_Dungeon",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":512,
+  "compression":3,
+  "conversionMode":0,
+  "duration":54.436577,
+  "name":"AMB_Dungeon",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"AMB_Dungeon.ogg",
+  "type":1,
+  "volume":0.37,
+}
