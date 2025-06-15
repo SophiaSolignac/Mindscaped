@@ -1,20 +1,60 @@
 // globals
-page_w = 140; 
-page_h = 200;
+page_w = 200; 
+page_h = 150;
 
-enter_h = 10;
+enter_h = 30;
+
+actual_page = 1;
 
 // sors 
 sples_list = ds_list_create();
-actual_page = 1;
 
-spels_name[0] = "test_Spel_111 111111111 1111111 111111 1 11111111 1  11111 111 11 11 1 1 111 11 1 11111";
-spels_name[1] = "test_Spel_2";
-spels_name[2] = "test_Spel_3";
 
-ds_list_add(sples_list,spels_name[0]);
-ds_list_add(sples_list,spels_name[1]);
-ds_list_add(sples_list,spels_name[2]);
+// Sors 1
+var spel_one = ds_map_create();
+
+spel_one[? "name"] = "Magic punsh";
+spel_one[? "cost"] = 0;
+spel_one[? "dmg"] = 5;
+
+spel_one[? "desc"] = "powerless but rentable";
+
+
+// Sors 2
+var spel_tow = ds_map_create();
+
+spel_tow[? "name"] = "Fierball";
+spel_tow[? "cost"] = 11;
+spel_tow[? "dmg"] = 30;
+
+spel_tow[? "desc"] = "powerfull but expensive";
+
+// Sors 3
+var spel_tree = ds_map_create();
+
+spel_tree[? "name"] = "Restoration";
+spel_tree[? "cost"] = 0;
+spel_tree[? "dmg"] = 0;
+
+spel_tree[? "rec_mana"] = 10;
+
+spel_tree[? "desc"] = "Hit an enemy restor your mana by ";
+
+// Sors 4
+var spel_four = ds_map_create();
+
+spel_four[? "name"] = "powerfull";
+spel_four[? "cost"] = 8;
+spel_four[? "dmg"] = 10;
+
+spel_four[? "desc"] = "power less but hit in zoon";
+
+
+
+ds_list_add(sples_list,spel_one);
+ds_list_add(sples_list,spel_tow);
+ds_list_add(sples_list,spel_tree);
+ds_list_add(sples_list,spel_four);
 
 function stop_Pages()
 {
