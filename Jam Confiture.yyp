@@ -39,7 +39,9 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Ancient Medium.ttf","CopyToMask":-1,"filePath":"datafiles","name":"Ancient Medium.ttf","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -48,6 +50,7 @@
   "name":"Jam Confiture",
   "resources":[
     {"id":{"name":"Book_normal_font","path":"fonts/Book_normal_font/Book_normal_font.yy",},},
+    {"id":{"name":"Book_title_font_1","path":"fonts/Book_title_font_1/Book_title_font_1.yy",},},
     {"id":{"name":"Boock","path":"objects/Boock/Boock.yy",},},
     {"id":{"name":"obj_Dungeon_manager","path":"objects/obj_Dungeon_manager/obj_Dungeon_manager.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
