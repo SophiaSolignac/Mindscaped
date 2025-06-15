@@ -1,10 +1,20 @@
+// globals
+page_w = 140; 
+page_h = 200;
+
+enter_h = 10;
+
 // sors 
 sples_list = ds_list_create();
 actual_page = 1;
 
-ds_list_add(sples_list,"test_Spel");
-ds_list_add(sples_list,"test_Spel2");
-ds_list_add(sples_list,"test_Spel3");
+spels_name[0] = "test_Spel_111 111111111 1111111 111111 1 11111111 1  11111 111 11 11 1 1 111 11 1 11111";
+spels_name[1] = "test_Spel_2";
+spels_name[2] = "test_Spel_3";
+
+ds_list_add(sples_list,spels_name[0]);
+ds_list_add(sples_list,spels_name[1]);
+ds_list_add(sples_list,spels_name[2]);
 
 function stop_Pages()
 {
