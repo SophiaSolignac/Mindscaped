@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b27df3b8-3c14-454e-889e-929fe14f04c5","name":"b27df3b8-3c14-454e-889e-929fe14f04c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1b69d56d-16b7-4cc9-88d0-95ba1302c3a4","name":"1b69d56d-16b7-4cc9-88d0-95ba1302c3a4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":484,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a8984b82-a3c3-4878-bd32-a216a7758c6c","blendMode":0,"displayName":"default","isLocked":false,"name":"a8984b82-a3c3-4878-bd32-a216a7758c6c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"a221f5a0-556c-4ccf-bb10-f4516cf84645","blendMode":0,"displayName":"default","isLocked":false,"name":"a221f5a0-556c-4ccf-bb10-f4516cf84645","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Lvl1_FurretMultiple_Sprite",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Lvl1_Furret",
-    "path":"folders/Sprites/Ennemys/Lvl1_Furret.yy",
+    "name":"Lvl1_Ferret",
+    "path":"folders/Sprites/Ennemys/LVL1_Ennemy_Sprite/Lvl1_Ferret.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b27df3b8-3c14-454e-889e-929fe14f04c5","path":"sprites/Lvl1_FurretMultiple_Sprite/Lvl1_FurretMultiple_Sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"45fbfc3d-5bb3-4991-9f9e-887b81d4e1c1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1b69d56d-16b7-4cc9-88d0-95ba1302c3a4","path":"sprites/Lvl1_FurretMultiple_Sprite/Lvl1_FurretMultiple_Sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b0949cf7-a69f-4ad3-98a0-9419463c8e3b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
