@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0bc832b9-98a2-4f1d-a93c-f145e5af7acd","name":"0bc832b9-98a2-4f1d-a93c-f145e5af7acd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"15e455c2-2070-478d-8b51-baaf5d2202ee","name":"15e455c2-2070-478d-8b51-baaf5d2202ee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":780,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c6699b4e-59a7-4b81-bac0-a0fab219565e","blendMode":0,"displayName":"default","isLocked":false,"name":"c6699b4e-59a7-4b81-bac0-a0fab219565e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"85c345f3-3623-42e8-9c28-220da9c44659","blendMode":0,"displayName":"default","isLocked":false,"name":"85c345f3-3623-42e8-9c28-220da9c44659","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Lvl1_Spectrum_Sprite",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Lvl1_Spectrum",
-    "path":"folders/Sprites/Ennemys/Lvl1_Spectrum.yy",
+    "name":"Lvl1_SpectrumRat",
+    "path":"folders/Sprites/Ennemys/LVL1_Ennemy_Sprite/Lvl1_SpectrumRat.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0bc832b9-98a2-4f1d-a93c-f145e5af7acd","path":"sprites/Lvl1_Spectrum_Sprite/Lvl1_Spectrum_Sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"44f8ad1f-d5a6-4813-bc36-65d542bc33c7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"15e455c2-2070-478d-8b51-baaf5d2202ee","path":"sprites/Lvl1_Spectrum_Sprite/Lvl1_Spectrum_Sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6032b6f9-3832-4dc0-a991-496ddb981780","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

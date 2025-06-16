@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"da752c0b-3180-489b-8ec2-8df88bbb6932","name":"da752c0b-3180-489b-8ec2-8df88bbb6932","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"d65efbec-a772-4dd7-b7ed-44d94a1ac2ed","name":"d65efbec-a772-4dd7-b7ed-44d94a1ac2ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":485,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d4ff0edb-213b-4a2f-b0dc-6fe324fa3fa9","blendMode":0,"displayName":"default","isLocked":false,"name":"d4ff0edb-213b-4a2f-b0dc-6fe324fa3fa9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f9093070-0f27-4b44-9ad3-fe3815d22a34","blendMode":0,"displayName":"default","isLocked":false,"name":"f9093070-0f27-4b44-9ad3-fe3815d22a34","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Lvl1_Frog_Sprite_Corpse",
   "nineSlice":null,
   "origin":0,
   "parent":{
     "name":"Lvl1_Frog",
-    "path":"folders/Sprites/Ennemys/Lvl1_Frog.yy",
+    "path":"folders/Sprites/Ennemys/LVL1_Ennemy_Sprite/Lvl1_Frog.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"da752c0b-3180-489b-8ec2-8df88bbb6932","path":"sprites/Lvl1_Frog_Sprite_Corpse/Lvl1_Frog_Sprite_Corpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"339bf31a-9916-4294-98fc-bc09bc2945f0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d65efbec-a772-4dd7-b7ed-44d94a1ac2ed","path":"sprites/Lvl1_Frog_Sprite_Corpse/Lvl1_Frog_Sprite_Corpse.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bc5f0a9c-b112-4fc2-8485-3863a3324b60","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c5a3c64a-b1ef-4ec5-9c80-65c4ad823ad1","name":"c5a3c64a-b1ef-4ec5-9c80-65c4ad823ad1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"e76aca46-e13f-4ce7-96e4-df8536677b6b","name":"e76aca46-e13f-4ce7-96e4-df8536677b6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":953,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"72d927f7-9707-4306-9983-5f400ee851dd","blendMode":0,"displayName":"default","isLocked":false,"name":"72d927f7-9707-4306-9983-5f400ee851dd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"49e062dd-eb8e-422b-8563-7719f05c341b","blendMode":0,"displayName":"default","isLocked":false,"name":"49e062dd-eb8e-422b-8563-7719f05c341b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Lvl1_ChonkFrog_Sprite",
   "nineSlice":null,
   "origin":0,
   "parent":{
     "name":"Lvl1_ChonkFrog",
-    "path":"folders/Sprites/Ennemys/Lvl1_ChonkFrog.yy",
+    "path":"folders/Sprites/Ennemys/LVL1_Ennemy_Sprite/Lvl1_ChonkFrog.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c5a3c64a-b1ef-4ec5-9c80-65c4ad823ad1","path":"sprites/Lvl1_ChonkFrog_Sprite/Lvl1_ChonkFrog_Sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"34ef6db7-9ade-45fd-b767-03c8f88b3af3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e76aca46-e13f-4ce7-96e4-df8536677b6b","path":"sprites/Lvl1_ChonkFrog_Sprite/Lvl1_ChonkFrog_Sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"9fdb43f1-8110-450c-9f25-7403d81913b1","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
