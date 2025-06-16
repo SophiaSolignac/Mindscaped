@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_game",
+  "%Name":"HealthBar",
   "eventList":[],
   "managed":true,
-  "name":"obj_game",
+  "name":"HealthBar",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"UI_HealthBar",
+    "path":"sprites/UI_HealthBar/UI_HealthBar.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
