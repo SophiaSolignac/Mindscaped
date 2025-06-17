@@ -43,8 +43,11 @@ function play_transition_sound()
 	if (curent_room_Data.is_stairs)
 	global.PlaySFX(Down_Stairs);
 	
-else {
-			global.PlaySFX(Door_Wood_Open4);
-		}
+else 
+	{
+		var rend_sound = door_list[irandom(array_length(door_list) - 1)];
+		
+		global.PlaySFX(rend_sound);
+	}
 }
 	
