@@ -41,6 +41,9 @@
       ],"listItems":[],"multiselect":false,"name":"targ_room_back","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Error","path":"rooms/Error/Error.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Error","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"door_back","filters":[],"listItems":[],"multiselect":false,"name":"door_back","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"is_stairs","filters":[],"listItems":[],"multiselect":false,"name":"is_stairs","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"stairs_sound","filters":[
+        "GMSound",
+      ],"listItems":[],"multiselect":false,"name":"stairs_sound","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Down_Stairs","path":"sounds/Down_Stairs/Down_Stairs.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Down_Stairs","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

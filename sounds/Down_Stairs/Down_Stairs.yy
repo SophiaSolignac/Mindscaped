@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Down_Stairs.ogg",
   "type":0,
-  "volume":0.67,
+  "volume":1.0,
 }

@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"Door_Wood_Open5.ogg",
   "type":0,
-  "volume":0.37,
+  "volume":1.0,
 }
