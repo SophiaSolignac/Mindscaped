@@ -77,7 +77,6 @@
     {"id":{"name":"obj_Dungeon_manager","path":"objects/obj_Dungeon_manager/obj_Dungeon_manager.yy",},},
     {"id":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},},
     {"id":{"name":"obj_Sound_Manager","path":"objects/obj_Sound_Manager/obj_Sound_Manager.yy",},},
-    {"id":{"name":"Object11","path":"objects/Object11/Object11.yy",},},
     {"id":{"name":"SanityBar","path":"objects/SanityBar/SanityBar.yy",},},
     {"id":{"name":"Empty_","path":"rooms/Empty_/Empty_.yy",},},
     {"id":{"name":"Empty_Escalier","path":"rooms/Empty_Escalier/Empty_Escalier.yy",},},
