@@ -4,7 +4,14 @@ dung_max_lenth = 20;
 dung_min_hight = 10;
 dung_max_hight = 20;
 
+room_transisioning = false;
+transoition_dir = 0;
+
+
 curent_room_Data = instance_find(obj_Room_Data, 0);
+nex_direction = curent_room_Data.targ_room_forward;
+
+
 
 grid_width = random_range(dung_min_lenth,dung_max_lenth);
 grid_height = random_range(dung_min_hight,dung_max_hight);
@@ -23,3 +30,5 @@ for ( i = 0; i < grid_width; i++) {
 
 zoom = 1;
 zoom_speed = 0.05;
+
+
