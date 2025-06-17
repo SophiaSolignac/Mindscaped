@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"Mindscape_GameJam_Exploration_etage2_wav",
+  "%Name":"Mindscape_GameJam_Exploration_etage1",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":0,
+  "compression":3,
   "conversionMode":0,
-  "duration":70.13531,
-  "name":"Mindscape_GameJam_Exploration_etage2_wav",
+  "duration":72.02948,
+  "name":"Mindscape_GameJam_Exploration_etage1",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Mindscape_GameJam_Exploration_etage2_wav.ogg",
-  "type":0,
-  "volume":1.0,
+  "soundFile":"Mindscape_GameJam_Exploration_etage1.ogg",
+  "type":1,
+  "volume":0.5,
 }
