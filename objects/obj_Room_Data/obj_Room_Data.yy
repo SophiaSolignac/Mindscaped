@@ -40,6 +40,7 @@
         "GMRoom",
       ],"listItems":[],"multiselect":false,"name":"targ_room_back","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Error","path":"rooms/Error/Error.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Error","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"door_back","filters":[],"listItems":[],"multiselect":false,"name":"door_back","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"is_stairs","filters":[],"listItems":[],"multiselect":false,"name":"is_stairs","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

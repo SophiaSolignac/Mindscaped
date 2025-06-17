@@ -20,3 +20,6 @@ for ( i = 0; i < grid_width; i++) {
 		
     }
 }
+
+zoom = 1;
+zoom_speed = 0.05;
