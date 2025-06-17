@@ -72,13 +72,3 @@ else
 	obj_cam_manager.transition_zoom(transoition_dir);
 }
 
-// Music Start
-if (instance_exists(obj_floor_1)) {
-    play_music_for_floor(1);
-}
-else if (instance_exists(obj_floor_2)) {
-    play_music_for_floor(2);
-}
-else if (instance_exists(obj_floor_3)) {
-    play_music_for_floor(3);
-}
