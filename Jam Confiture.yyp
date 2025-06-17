@@ -58,7 +58,9 @@
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
   "ForcedPrefabProjectReferences":[],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"VINERITC.TTF","CopyToMask":-1,"filePath":"datafiles","name":"VINERITC.TTF","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -68,6 +70,7 @@
   "resources":[
     {"id":{"name":"Book_normal_font","path":"fonts/Book_normal_font/Book_normal_font.yy",},},
     {"id":{"name":"Book_title_font_1","path":"fonts/Book_title_font_1/Book_title_font_1.yy",},},
+    {"id":{"name":"testfont","path":"fonts/testfont/testfont.yy",},},
     {"id":{"name":"batle_manager","path":"objects/batle_manager/batle_manager.yy",},},
     {"id":{"name":"Boock","path":"objects/Boock/Boock.yy",},},
     {"id":{"name":"HealthBar","path":"objects/HealthBar/HealthBar.yy",},},
@@ -81,6 +84,7 @@
     {"id":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},},
     {"id":{"name":"obj_Sound_Manager","path":"objects/obj_Sound_Manager/obj_Sound_Manager.yy",},},
     {"id":{"name":"SanityBar","path":"objects/SanityBar/SanityBar.yy",},},
+    {"id":{"name":"spel_hit_zone","path":"objects/spel_hit_zone/spel_hit_zone.yy",},},
     {"id":{"name":"Empty_","path":"rooms/Empty_/Empty_.yy",},},
     {"id":{"name":"Empty_Escalier","path":"rooms/Empty_Escalier/Empty_Escalier.yy",},},
     {"id":{"name":"Empty_F_R","path":"rooms/Empty_F_R/Empty_F_R.yy",},},
