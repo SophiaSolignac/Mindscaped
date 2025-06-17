@@ -31,4 +31,20 @@ for ( i = 0; i < grid_width; i++) {
 zoom = 1;
 zoom_speed = 0.05;
 
+door_list[0]= Door_Wood_Open1;
+door_list[1]= Door_Wood_Open2;
+door_list[2]= Door_Wood_Open3;
+door_list[3]= Door_Wood_Open4;
+door_list[4]= Door_Wood_Open5;
 
+
+function play_transition_sound()
+{
+	if (curent_room_Data.is_stairs)
+	global.PlaySFX(Down_Stairs);
+	
+else {
+			global.PlaySFX(Door_Wood_Open4);
+		}
+}
+	

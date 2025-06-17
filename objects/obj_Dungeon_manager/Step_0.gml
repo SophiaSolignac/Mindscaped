@@ -13,6 +13,7 @@ if (keyboard_check_pressed(vk_right))
 		transoition_dir = 1;
 		room_transisioning = true;
 		alarm_set(0, obj_cam_manager.transition_duration);
+		play_transition_sound()
 	}
 };
 
@@ -27,6 +28,8 @@ if (keyboard_check_pressed(vk_up))
 		transoition_dir = 0;
 		room_transisioning = true;
 		alarm_set(0, obj_cam_manager.transition_duration);
+		play_transition_sound()
+		
 
 	}
 };
@@ -42,7 +45,7 @@ if (keyboard_check_pressed(vk_left))
 		transoition_dir = -1;
 		room_transisioning = true;
 		alarm_set(0, obj_cam_manager.transition_duration);
-
+		play_transition_sound()
 	}
 };
 
@@ -57,6 +60,7 @@ if (keyboard_check_pressed(vk_down))
 		transoition_dir = 0;
 		room_transisioning = true;
 		alarm_set(0, obj_cam_manager.transition_duration);
+		play_transition_sound()
 
 	}
 };

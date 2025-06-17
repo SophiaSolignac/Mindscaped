@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Door_Wood_Open5",
+  "%Name":"Lizard_Monster",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":4.947075,
-  "name":"Door_Wood_Open5",
+  "duration":2.7705216,
+  "name":"Lizard_Monster",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Door_Wood_Open5.ogg",
+  "soundFile":"Lizard_Monster.ogg",
   "type":0,
   "volume":1.0,
 }

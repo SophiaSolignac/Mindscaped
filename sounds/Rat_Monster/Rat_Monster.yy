@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Door_Wood_Open5",
+  "%Name":"Rat_Monster",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":4.947075,
-  "name":"Door_Wood_Open5",
+  "duration":4.5457144,
+  "name":"Rat_Monster",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Door_Wood_Open5.ogg",
+  "soundFile":"Rat_Monster.ogg",
   "type":0,
   "volume":1.0,
 }
