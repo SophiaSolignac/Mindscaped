@@ -1,15 +1,16 @@
 rotation_speed = .2;
+spel_radius = 1;
 
-if (!variable_global_exists("singleton_exists") || !global.singleton_exists) {
-    global.singleton_exists = true;
-    global.singleton_instance = id;
-    persistent = true;
-} else {
-    instance_destroy();
-}
+image_blend = normal_color;
+
 
 // if (instance_exists(obj_singleton)) {
 //    instance_destroy();
 //} else {
 //    persistent = true;
 //}
+
+function set_size(radius) {
+    image_xscale = radius;
+	image_yscale = radius;
+}
