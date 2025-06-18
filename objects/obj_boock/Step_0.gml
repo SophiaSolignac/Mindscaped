@@ -17,5 +17,5 @@ if(page_is_turning)
 		stop_Pages();
 		}
 		
-		show_debug_message(actual_page);
+	//show_debug_message(actual_page);
 }

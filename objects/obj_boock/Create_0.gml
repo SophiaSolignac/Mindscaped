@@ -11,7 +11,7 @@ sples_list = ds_list_create();
 
 
 // Sors 1
-var spel_one = ds_map_create();
+spel_one = ds_map_create();
 
 spel_one[? "name"] = "Magic punsh";
 spel_one[? "cost"] = 0;
@@ -21,7 +21,7 @@ spel_one[? "desc"] = "powerless but rentable";
 
 
 // Sors 2
-var spel_tow = ds_map_create();
+spel_tow = ds_map_create();
 
 spel_tow[? "name"] = "Fierball";
 spel_tow[? "cost"] = 11;
@@ -30,7 +30,7 @@ spel_tow[? "dmg"] = 30;
 spel_tow[? "desc"] = "powerfull but expensive";
 
 // Sors 3
-var spel_tree = ds_map_create();
+spel_tree = ds_map_create();
 
 spel_tree[? "name"] = "Restoration";
 spel_tree[? "cost"] = 0;
@@ -41,11 +41,13 @@ spel_tree[? "rec_mana"] = 10;
 spel_tree[? "desc"] = "Hit an enemy restor your mana by ";
 
 // Sors 4
-var spel_four = ds_map_create();
+spel_four = ds_map_create();
 
-spel_four[? "name"] = "powerfull";
+spel_four[? "name"] = "magic cloud";
 spel_four[? "cost"] = 8;
 spel_four[? "dmg"] = 10;
+
+spel_four[? "rad"] = 2;
 
 spel_four[? "desc"] = "power less but hit in zoon";
 
@@ -63,6 +65,8 @@ function stop_Pages()
 	
 	turning_page_direction = 0;
 	image_speed = normal_speed * turning_page_direction;
+	
+	change_page();
 }
 
 
@@ -82,6 +86,8 @@ function Turn_Page_Right()
 		turning_page_direction = 1;
 		image_speed = normal_speed * turning_page_direction;
 		page_is_turning = true;
+		
+		
 	}
 	
 }
@@ -97,5 +103,29 @@ function Turn_Page_Left()
 		if (!page_is_turning) image_index = image_number -1;
 		
 		page_is_turning = true;
+		
 	}
+}
+
+hit_spel_object = instance_exists(obj_spel_hit_zone);
+
+function change_page() {
+	// Vérifie que le sort est valide et possède la clé "cost"
+	
+	 var spell = sples_list[| actual_page - 1];
+	
+	if (is_undefined(spell) || !ds_map_exists(spell, "rad")) 
+	{
+		if (variable_global_exists("singleton_instance") && instance_exists(global.singleton_instance)) 
+		{
+			instance_destroy(global.singleton_instance);
+			global.singleton_exists = false;
+			global.singleton_instance = noone;
+		}
+		return;
+	}
+	
+	show_debug_message(string(spell[? "cost"]));
+
+	instance_create_layer(mouse_x, mouse_y, "Instances", obj_spel_hit_zone);
 }

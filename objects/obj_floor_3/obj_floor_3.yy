@@ -8,8 +8,8 @@
   "name":"obj_floor_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"floor and sound",
+    "path":"folders/Objects/floor and sound.yy",
   },
   "parentObjectId":null,
   "persistent":false,

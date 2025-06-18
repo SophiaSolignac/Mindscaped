@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"spel_hit_zone",
-  "eventList":[],
+  "%Name":"obj_spel_hit_zone",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"spel_hit_zone",
+  "name":"obj_spel_hit_zone",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"hit_spels",
+    "path":"sprites/hit_spels/hit_spels.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

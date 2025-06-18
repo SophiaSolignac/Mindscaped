@@ -1,2 +1,2 @@
-cursor_sprite = spr_cursor_placeholder;
-//window_set_cursor(cr_none);
+cursor_sprite = spg_baguette;
+window_set_cursor(cr_none);
