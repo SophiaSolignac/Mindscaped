@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_level_2_bat",
+  "%Name":"obj_Bat_LVL3",
   "eventList":[],
   "managed":true,
-  "name":"obj_level_2_bat",
+  "name":"obj_Bat_LVL3",
   "overriddenProperties":[],
   "parent":{
     "name":"enemys",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Lvl2_Bat_Sprite",
-    "path":"sprites/Lvl2_Bat_Sprite/Lvl2_Bat_Sprite.yy",
+    "name":"Lvl3_Bat_Sprite",
+    "path":"sprites/Lvl3_Bat_Sprite/Lvl3_Bat_Sprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
