@@ -91,6 +91,7 @@
     {"id":{"name":"obj_floor_3","path":"objects/obj_floor_3/obj_floor_3.yy",},},
     {"id":{"name":"obj_Frog","path":"objects/obj_Frog/obj_Frog.yy",},},
     {"id":{"name":"obj_health_bar","path":"objects/obj_health_bar/obj_health_bar.yy",},},
+    {"id":{"name":"obj_level_2_bat","path":"objects/obj_level_2_bat/obj_level_2_bat.yy",},},
     {"id":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},},
     {"id":{"name":"obj_sanity_bar","path":"objects/obj_sanity_bar/obj_sanity_bar.yy",},},
     {"id":{"name":"obj_Sound_Manager","path":"objects/obj_Sound_Manager/obj_Sound_Manager.yy",},},
