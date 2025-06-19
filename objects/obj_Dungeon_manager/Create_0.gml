@@ -4,7 +4,14 @@ dung_max_lenth = 20;
 dung_min_hight = 10;
 dung_max_hight = 20;
 
+room_transisioning = false;
+transoition_dir = 0;
+
+
 curent_room_Data = instance_find(obj_Room_Data, 0);
+nex_direction = curent_room_Data.targ_room_forward;
+
+
 
 grid_width = random_range(dung_min_lenth,dung_max_lenth);
 grid_height = random_range(dung_min_hight,dung_max_hight);
@@ -20,3 +27,41 @@ for ( i = 0; i < grid_width; i++) {
 		
     }
 }
+
+zoom = 1;
+zoom_speed = 0.05;
+
+door_list[0]= Door_Wood_Open1;
+door_list[1]= Door_Wood_Open2;
+door_list[2]= Door_Wood_Open3;
+door_list[3]= Door_Wood_Open4;
+door_list[4]= Door_Wood_Open5;
+
+
+function play_transition_sound()
+{
+	if (curent_room_Data.is_stairs)
+	{
+		global.PlaySFX(obj_Room_Data.stairs_sound);
+	}
+else 
+	{
+		var rend_sound = door_list[irandom(array_length(door_list) - 1)];
+		
+		global.PlaySFX(rend_sound);
+	}
+}
+
+function can_transitioning()
+{
+	return (!global.room_figting && obj_cam_manager.fadeLevel < .3)
+}
+
+function start_transition()
+{
+	
+		room_transisioning = true;
+		alarm_set(0, obj_cam_manager.transition_duration);
+		play_transition_sound()
+}
+	

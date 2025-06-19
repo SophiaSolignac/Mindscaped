@@ -1,0 +1,1 @@
+image_blend = normal_color;

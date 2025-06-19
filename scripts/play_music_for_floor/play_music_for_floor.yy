@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"play_music_for_floor",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"play_music_for_floor",
+  "parent":{
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

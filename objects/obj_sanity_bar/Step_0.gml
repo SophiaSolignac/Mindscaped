@@ -1,0 +1,1 @@
+if (shaking) rent_mana_shake();
