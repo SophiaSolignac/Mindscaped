@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Chicken_Monster",
+  "%Name":"SFX_Spectr",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.4880044,
-  "name":"Chicken_Monster",
+  "duration":4.5457144,
+  "name":"SFX_Spectr",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Chicken_Monster.ogg",
+  "soundFile":"SFX_Spectr.ogg",
   "type":0,
   "volume":1.0,
 }

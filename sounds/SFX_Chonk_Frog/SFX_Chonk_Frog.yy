@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Lizard_Monster",
+  "%Name":"SFX_Chonk_Frog",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":2.7705216,
-  "name":"Lizard_Monster",
+  "name":"SFX_Chonk_Frog",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Lizard_Monster.ogg",
+  "soundFile":"SFX_Chonk_Frog.ogg",
   "type":0,
   "volume":1.0,
 }

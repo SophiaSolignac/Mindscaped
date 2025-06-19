@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Rabbit_Monster",
+  "%Name":"SFX_Frog",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.5066667,
-  "name":"Rabbit_Monster",
+  "duration":3.4426303,
+  "name":"SFX_Frog",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Rabbit_Monster.ogg",
+  "soundFile":"SFX_Frog.ogg",
   "type":0,
   "volume":1.0,
 }

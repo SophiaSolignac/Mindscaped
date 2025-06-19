@@ -79,3 +79,24 @@ global.next_music = -1;
 // ===== DEBUG =====
 show_debug_message("Sound Manager initialisé");
 show_debug_message("SFX disponibles: " + string(struct_get_names(global.spell_sfx)));
+
+
+// ===== SONS DES ENNEMIS =====
+global.enemy_sfx = {
+    bat: SFX_Bat,
+    chonk_frog: SFX_Chonk_Frog,
+    ferret: SFX_Ferret,
+    frog: SFX_Frog,
+    spectr: SFX_Spectr,
+    crab: SFX_Crab
+};
+
+// Fonction pour jouer les SFX d'ennemi
+global.PlayEnemySFX = function(enemy_type, volume = 70) {
+    var sfx = variable_struct_get(global.enemy_sfx, enemy_type);
+    if (sfx != undefined && audio_exists(sfx)) {
+        audio_play_sound(sfx, volume, false);
+    } else {
+        show_debug_message("SFX manquant pour: " + string(enemy_type));
+    }
+};
