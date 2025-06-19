@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"Mindscape_GameJam_Exploration_etage1",
+  "%Name":"Mindscape_GameJam_Battle_Demon",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":72.02948,
-  "name":"Mindscape_GameJam_Exploration_etage1",
+  "duration":59.07694,
+  "name":"Mindscape_GameJam_Battle_Demon",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"Mindscape_GameJam_Exploration_etage1.ogg",
+  "soundFile":"Mindscape_GameJam_Battle_Demon.ogg",
   "type":1,
-  "volume":0.57,
+  "volume":1.0,
 }

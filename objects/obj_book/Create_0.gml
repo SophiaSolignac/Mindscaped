@@ -44,10 +44,12 @@ page_is_turning = false;
 function Turn_Page_Right()
 {
 	if (actual_page < ds_list_size(sples_list))
+	
 	{
 		turning_page_direction = 1;
 		image_speed = normal_speed * turning_page_direction;
 		page_is_turning = true;
+		global.PlayPageTurnright();
 		
 		
 	}
@@ -58,6 +60,7 @@ function Turn_Page_Right()
 function Turn_Page_Left()
 {
 	if (actual_page > 1)
+	
 	{
 		turning_page_direction = -1;
 		image_speed = normal_speed * turning_page_direction;
@@ -65,6 +68,7 @@ function Turn_Page_Left()
 		if (!page_is_turning) image_index = image_number -1;
 		
 		page_is_turning = true;
+		global.PlayPageTurnleft();
 		
 	}
 }
@@ -115,22 +119,23 @@ function lunch_spel()
 	switch(spell)
 	{
 		case spel_zero: show_debug_message("++"); 
-		
+		global.PlaySpellSFX("interact"); 
 		break;
 		
 		
 		case spel_one: 
 			scr_punsh_weaknes(spell);
+			global.PlaySpellSFX("punch"); 
 		break;
 		
 		
 		case spel_tow: show_debug_message("cc");
-		
+		global.PlaySpellSFX("fireball"); 
 		break;
 		
 		
 		case spel_tree: show_debug_message("dd"); 
-		
+		global.PlaySpellSFX("heal"); 
 		break;
 		
 		
@@ -139,6 +144,7 @@ function lunch_spel()
 		//show_debug_message("magic cloud"); 
 		
 		scr_punsh(spell);
+		global.PlaySpellSFX("cloud"); 
 		
 		break;
 	}
