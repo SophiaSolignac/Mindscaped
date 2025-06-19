@@ -47,7 +47,7 @@
     {"$GMFolder":"","%Name":"Placeholder","folderPath":"folders/Sprites/Ennemys/Placeholder.yy","name":"Placeholder","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Groupe1","folderPath":"folders/Sprites/Ennemys/Placeholder/Groupe1.yy","name":"Groupe1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Sprites/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Placeholder","folderPath":"folders/Sprites/Rooms/Placeholder.yy","name":"Placeholder","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"floor1","folderPath":"folders/Sprites/Rooms/floor1.yy","name":"floor1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Ui","folderPath":"folders/Sprites/Ui.yy","name":"Ui","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"BOUTON","folderPath":"folders/Sprites/Ui/BOUTON.yy","name":"BOUTON","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Exit","folderPath":"folders/Sprites/Ui/BOUTON/Exit.yy","name":"Exit","resourceType":"GMFolder","resourceVersion":"2.0",},
