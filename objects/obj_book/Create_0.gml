@@ -1,8 +1,9 @@
 // globals
-page_w = 200; 
-page_h = 150;
+page_w = 900; 
+page_h = 250;
 
-enter_h = 30;
+enter_title_h = 32;
+enter_h = 64;
 
 actual_page = 1;
 
