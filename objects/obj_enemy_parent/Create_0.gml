@@ -60,3 +60,22 @@ function horizontal_osilation()
 	x = x_base + sin(current_time * x_osc_speed) * x_osc_range;
 }
 
+// Détermine automatiquement le type d'ennemi
+enemy_type = "undefined";
+
+// Associe chaque objet enfant à un type
+switch (object_index) {
+    case obj_bat: enemy_type = "bat"; break;
+    case obj_Chonk_frog: enemy_type = "chonk_frog"; break;
+    case obj_Ferret: enemy_type = "ferret"; break;
+    case obj_Frog: enemy_type = "frog"; break;
+    case obj_Spectr: enemy_type = "spectr"; break;
+    case obj_Crab: enemy_type = "crab"; break;
+}
+
+// Joue le son d'apparition correspondant
+if (enemy_type != "undefined") {
+    global.PlayEnemySFX(enemy_type, "spawn");
+} else {
+    show_debug_message("Type d'ennemi non reconnu: " + string(object_index));
+}
