@@ -1,23 +1,81 @@
-var actual_floor = global.current_floor;
+// INITIALISATION
+if (current_floor == -1) {
+    current_floor = global.current_floor;
+    global.current_music = audio_play_sound(music_by_floor[global.current_floor], 1, true);
+    show_debug_message("START | Musique exploration (ID:" + string(global.current_music) + ")");
+    global.fade_progress = -1; // Désactive le fade
+}
 
-if (actual_floor != current_floor) {
-    current_floor = actual_floor;
-
-    // Stopper musique précédente s’il y en avait une
-    if (current_music != -1) {
-        audio_stop_sound(current_music);
+// GESTION FADE OUT/IN (s'exécute à chaque frame)
+if (global.fade_progress >= 0) {
+    global.fade_progress += 0.05; // Vitesse du fade (ajuster si besoin)
+    
+    if (global.fade_type == "out") {
+        var vol = 1 - global.fade_progress;
+        audio_sound_gain(global.fade_target, vol, 0);
+        
+        if (global.fade_progress >= 1) {
+            audio_stop_sound(global.fade_target);
+            global.fade_progress = -1; // Désactive le fade
+        }
     }
-
-    // Choisir la bonne musique
-    var next_music = music_by_floor[actual_floor];
-
-    // Si on est à l’étage 1, fade in
-    if (actual_floor == 1) {
-        current_music = audio_play_sound(next_music, 1, true);
-        audio_sound_gain(current_music, 0, 0);       // commencer à 0
-        audio_sound_gain(current_music, 1, 3000);    // fade in sur 3 secondes
-    } else {
-        // étage 2 ou 3 → pas de fade
-        current_music = audio_play_sound(next_music, 1, true);
+    else if (global.fade_type == "in") {
+        var vol = global.fade_progress;
+        audio_sound_gain(global.fade_target, vol, 0);
+        
+        if (global.fade_progress >= 1) {
+            global.fade_progress = -1; // Désactive le fade
+        }
     }
+}
+
+// DÉTECTION COMBAT
+if (instance_exists(obj_enemy_parent)) {
+    if (!global.room_fighting) {
+        global.room_fighting = true;
+        
+        // Lance le fade out
+        if (global.current_music != -1) {
+            global.fade_target = global.current_music;
+            global.fade_type = "out";
+            global.fade_progress = 0;
+        }
+        
+        // Joue musique combat après fade out (via le système de fade)
+        global.next_music = music_demon;
+        show_debug_message("Transition vers COMBAT");
+    }
+}
+// DÉTECTION FIN DE COMBAT
+else if (global.room_fighting) {
+    global.room_fighting = false;
+    
+    // Lance le fade out
+    if (global.current_music != -1) {
+        global.fade_target = global.current_music;
+        global.fade_type = "out";
+        global.fade_progress = 0;
+    }
+    
+    // Prépare la musique exploration
+    global.next_music = music_by_floor[global.current_floor];
+    show_debug_message("Transition vers EXPLORATION");
+}
+
+// GESTION DE LA MUSIQUE SUIVANTE (après fade out)
+if (global.fade_progress == -1 && global.next_music != -1) {
+    global.current_music = audio_play_sound(global.next_music, 
+        (global.next_music == music_demon) ? 1 : 0, // Volume direct si combat, 0 si exploration
+        true
+    );
+    
+    // Si exploration, lance le fade in
+    if (global.next_music != music_demon) {
+        global.fade_target = global.current_music;
+        global.fade_type = "in";
+        global.fade_progress = 0;
+    }
+    
+    show_debug_message("Nouvelle musique : " + string(global.current_music));
+    global.next_music = -1;
 }
