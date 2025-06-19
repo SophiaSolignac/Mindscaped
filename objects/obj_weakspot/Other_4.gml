@@ -8,3 +8,7 @@ if (instance_exists(obj_enemy_parent))
 
 }
 else instance_destroy();
+
+if (!place_meeting(x, y, obj_enemy_parent)) {
+    instance_destroy(); // Se détruit si plus en contact avec son parent
+}

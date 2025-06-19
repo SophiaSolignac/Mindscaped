@@ -51,4 +51,17 @@ else
 		global.PlaySFX(rend_sound);
 	}
 }
+
+function can_transitioning()
+{
+	return (!global.room_figting && obj_cam_manager.fadeLevel < .3)
+}
+
+function start_transition()
+{
+	
+		room_transisioning = true;
+		alarm_set(0, obj_cam_manager.transition_duration);
+		play_transition_sound()
+}
 	
