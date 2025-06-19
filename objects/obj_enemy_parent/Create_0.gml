@@ -44,10 +44,6 @@ function is_current_room_without_enemies() {
 y_base = y;       
 x_base = x;       
 
-
-x_base = x;
-y_base = y;
-
 x_osc_speed = 0.03;   // Vitesse d’oscillation horizontale
 x_osc_range = 8;      // Amplitude horizontale
 
