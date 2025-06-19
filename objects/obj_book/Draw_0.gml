@@ -1,5 +1,7 @@
 draw_set_color(c_black);
+
 draw_self();
+
 //draw_rectangle(x, y, x + page_w, y + page_h, false);
 
 if (!page_is_turning && actual_page > 0 && actual_page <= ds_list_size(sples_list)) 

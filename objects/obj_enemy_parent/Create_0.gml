@@ -3,6 +3,7 @@ weak_point_list = ds_list_create();
 
 pv = max_pv;
 
+cooldown = attack_cooldown;
 
 life_bar_sprite = UI_HealthBar;
 //if(is_current_room_without_enemies)
@@ -44,19 +45,38 @@ function is_current_room_without_enemies() {
 y_base = y;       
 x_base = x;       
 
-x_osc_speed = 0.03;   // Vitesse d’oscillation horizontale
-x_osc_range = 8;      // Amplitude horizontale
-
-y_osc_speed = 0.04;   // Vitesse d’oscillation verticale
-y_osc_range = 12;     // Amplitude verticale
-
 function vertical_osilation()
 {
-	y = y_base + sin(current_time * y_osc_speed) * x_osc_range;
+    y = y_base + sin(current_time * y_osc_speed) * y_osc_range;
 }
 
 function horizontal_osilation()
 {
-	x = x_base + sin(current_time * x_osc_speed) * x_osc_range;
+    x = x_base + sin(current_time * x_osc_speed) * x_osc_range;
 }
+
+
+attack_timer = 0;
+attack_duration = 30; // 0.5 seconde à 60 FPS
+is_attacking = false;
+function perform_attack()
+{
+    instance_find(obj_health_bar,0).modify_health_value(-damages); 
+	
+	is_attacking = true;
+    attack_timer = 0;
+	//kill_entity();
+}
+
+
+
+
+
+
+
+
+
+
+
+
 

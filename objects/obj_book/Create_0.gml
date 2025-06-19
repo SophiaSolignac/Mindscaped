@@ -1,4 +1,7 @@
 // globals
+
+depth = 10;
+
 page_w = 900; 
 page_h = 250;
 
@@ -125,11 +128,14 @@ function lunch_spel()
 		
 		
 		case spel_tow: show_debug_message("cc");
-		
+		scr_punsh(spell);
 		break;
 		
 		
 		case spel_tree: show_debug_message("dd"); 
+		
+		health_bar.modify_health_value(10);
+		
 		
 		break;
 		

@@ -1,7 +1,7 @@
 rotation_speed = .2;
 spel_radius = 1;
 
-
+//layer = 10;
 
 image_blend = normal_color;
 

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_crit_hit",
   "parent":{
-    "name":"Jam Confiture",
-    "path":"Jam Confiture.yyp",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

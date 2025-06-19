@@ -9,8 +9,8 @@
   "name":"obj_Sound_Manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"floor and sound",
-    "path":"folders/Objects/floor and sound.yy",
+    "name":"managers",
+    "path":"folders/Objects/managers.yy",
   },
   "parentObjectId":null,
   "persistent":true,

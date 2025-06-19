@@ -99,6 +99,7 @@
     {"id":{"name":"obj_tur_btn","path":"objects/obj_tur_btn/obj_tur_btn.yy",},},
     {"id":{"name":"obj_weakspot","path":"objects/obj_weakspot/obj_weakspot.yy",},},
     {"id":{"name":"objCrab","path":"objects/objCrab/objCrab.yy",},},
+    {"id":{"name":"objspectrum2","path":"objects/objspectrum2/objspectrum2.yy",},},
     {"id":{"name":"testPath","path":"paths/testPath/testPath.yy",},},
     {"id":{"name":"Empty_","path":"rooms/Empty_/Empty_.yy",},},
     {"id":{"name":"Empty_Escalier","path":"rooms/Empty_Escalier/Empty_Escalier.yy",},},

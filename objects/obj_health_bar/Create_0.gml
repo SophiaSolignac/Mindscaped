@@ -1,16 +1,20 @@
-player_health = round(max_helth * 0.75);
+// Initialisation de la vie du joueur
+player_health = round(max_health * 0.75);
 
-set_bar_healt_level();
+set_bar_health_level();
 
-// func
+// === Fonctions ===
+
+// Modifie la vie et met à jour l’affichage de la barre
 function modify_health_value(amount)
 {
-    player_health = clamp(player_health + amount, 0, max_helth);
-    set_bar_healt_level();
+    player_health = clamp(player_health + amount, 0, max_health);
+    set_bar_health_level();
 }
 
-function set_bar_healt_level()
+// Met à jour le frame de la barre de vie en fonction du pourcentage de vie
+function set_bar_health_level()
 {
-    var ratio = clamp(player_health / max_helth, 0, 1);
+    var ratio = clamp(player_health / max_health, 0, 1);
     image_index = floor((1 - ratio) * (image_number - 1));
 }
