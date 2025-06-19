@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"804ed544-cc5c-47ea-b60e-9df083adbe09","name":"804ed544-cc5c-47ea-b60e-9df083adbe09","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"35e85c60-1c2b-4217-8d3a-7b6eb6d568ed","name":"35e85c60-1c2b-4217-8d3a-7b6eb6d568ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1080,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"fb247a13-84e8-41be-9748-e86903e30c07","blendMode":0,"displayName":"default","isLocked":false,"name":"fb247a13-84e8-41be-9748-e86903e30c07","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d1f11913-9128-4bdd-ac91-c3c6998db187","blendMode":0,"displayName":"default","isLocked":false,"name":"d1f11913-9128-4bdd-ac91-c3c6998db187","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Lvl1_Boss_Attack",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Lvl1",
-    "path":"folders/Sprites/Ennemys/Boss/Lvl1.yy",
+    "name":"Boss",
+    "path":"folders/Sprites/Ennemys/Boss.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"804ed544-cc5c-47ea-b60e-9df083adbe09","path":"sprites/Lvl1_Boss_Attack/Lvl1_Boss_Attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"e43e7889-2a9b-4f24-9af5-bb737d0cc20c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"35e85c60-1c2b-4217-8d3a-7b6eb6d568ed","path":"sprites/Lvl1_Boss_Attack/Lvl1_Boss_Attack.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"f931df52-1ea3-40c9-8501-eccc841d5f70","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
