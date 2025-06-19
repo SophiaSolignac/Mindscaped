@@ -22,15 +22,15 @@ function hit_litle_punsh(damages)
 	scr_hit_monsters(damages);
 }
 
-function scr_hit_monsters_weaknes(value)  
+function scr_hit_monsters_weaknes(value,crit_mult)  
 {
     with (obj_weakspot) {
         if (place_meeting(x, y, other)) {
             if (instance_exists(owner)) {
-                owner.pv -= value * 2; // double damage
+                owner.pv -= value * crit_mult; // double damage
                 owner.hit_check();    // vérifie si le parent meurt
             }
-            show_debug_message("Weakspot touché : -" + string(value * 2));
+            show_debug_message("Weakspot touché : -" + string(value * crit_mult));
 			exit;
         }
     }

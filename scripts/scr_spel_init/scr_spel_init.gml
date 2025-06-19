@@ -21,7 +21,8 @@ spel_one[? "name"] = "Magic punsh";
 spel_one[? "cost"] = 1;
 spel_one[? "dmg"] = 50;
 
-spel_one[? "rad"] = .3;
+spel_one[? "rad"] = .1;
+spel_one[? "crit"] = 2;
 
 spel_one[? "desc"] = "powerless but rentable";
 
