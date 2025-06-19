@@ -3,6 +3,8 @@ weak_point_list = ds_list_create();
 
 pv = max_pv;
 
+
+life_bar_sprite = UI_HealthBar;
 //if(is_current_room_without_enemies)
 //{
 //	dispawn()
@@ -37,3 +39,24 @@ function is_current_room_without_enemies() {
    // 
    // return (ds_list_find_index(global.rooms_without_enemies, room) != -1);
 }
+
+// mouvement
+y_base = y;       
+x_base = x;       
+
+x_osc_speed = 0.03;   // Vitesse d’oscillation horizontale
+x_osc_range = 8;      // Amplitude horizontale
+
+y_osc_speed = 0.04;   // Vitesse d’oscillation verticale
+y_osc_range = 12;     // Amplitude verticale
+
+function vertical_osilation()
+{
+	y = y_base + sin(current_time * y_osc_speed) * x_osc_range;
+}
+
+function horizontal_osilation()
+{
+	x = x_base + sin(current_time * x_osc_speed) * x_osc_range;
+}
+
