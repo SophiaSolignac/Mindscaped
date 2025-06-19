@@ -1,5 +1,7 @@
 weak_point_list = ds_list_create();
 
+initial_xscale = image_xscale;
+initial_yscale = image_yscale;
 
 pv = max_pv;
 

@@ -31,7 +31,7 @@ spel_one[? "desc"] = "powerless but rentable";
 // Sors 2
 spel_tow = ds_map_create();
 
-spel_tow[? "name"] = "Fierball";
+spel_tow[? "name"] = "Fireball";
 spel_tow[? "cost"] = 20;
 spel_tow[? "dmg"] = 50;
 

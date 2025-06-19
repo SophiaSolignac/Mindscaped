@@ -7,6 +7,9 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_39856C3C_2_1_2_1_1_1_1_1_1_1","path":"rooms/F1_x5_y11/F1_x5_y11.yy",},
+    {"name":"inst_3027207","path":"rooms/F1_x5_y11/F1_x5_y11.yy",},
+    {"name":"inst_1226F618","path":"rooms/F1_x5_y11/F1_x5_y11.yy",},
+    {"name":"inst_3693E3D4","path":"rooms/F1_x5_y11/F1_x5_y11.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -17,6 +20,12 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"targ_room_left","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resource":{"name":"F1_x5_y10","path":"rooms/F1_x5_y10/F1_x5_y10.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"F1_x5_y10",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_Room_Data","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"propertyId":{"name":"door_left","path":"objects/obj_Room_Data/obj_Room_Data.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":1184.0,},
+        {"$GMRInstance":"v2","%Name":"inst_3027207","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3027207","objectId":{"name":"objCrab","path":"objects/objCrab/objCrab.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"damages","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.8171214,"scaleY":0.786173,"x":1054.1658,"y":532.18994,},
+        {"$GMRInstance":"v2","%Name":"inst_1226F618","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1226F618","objectId":{"name":"obj_weakspot","path":"objects/obj_weakspot/obj_weakspot.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0440044,"scaleY":4.710957,"x":1111.5488,"y":506.53387,},
+        {"$GMRInstance":"v2","%Name":"inst_3693E3D4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3693E3D4","objectId":{"name":"obj_weakspot","path":"objects/obj_weakspot/obj_weakspot.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.62566,"scaleY":5.4851704,"x":975.85504,"y":527.42816,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"IMG_100","path":"sprites/IMG_100/IMG_100.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
