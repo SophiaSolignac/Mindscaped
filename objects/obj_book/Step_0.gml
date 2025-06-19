@@ -19,3 +19,9 @@ if(page_is_turning)
 		
 	//show_debug_message(actual_page);
 }
+
+if (mouse_check_button_pressed(mb_left))
+{
+	lunch_spel();
+}
+

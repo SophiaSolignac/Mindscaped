@@ -1,1 +1,1 @@
-x ++;
+//if(place_meeting(x,y,obj_spel_hit_zone)) instance_destroy();

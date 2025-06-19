@@ -6,63 +6,10 @@ enter_h = 30;
 
 actual_page = 1;
 
-// sors 
-sples_list = ds_list_create();
+health_bar = instance_find(obj_health_bar,0);
+mana_bar = instance_find(obj_sanity_bar,0)
 
-// spel zero
-spel_zero = ds_map_create();
-
-spel_zero[? "name"] = "Interact";
-spel_zero[? "cost"] = 0;
-spel_zero[? "dmg"] = 0;
-
-
-spel_zero[? "desc"] = "---";
-
-// Sors 1
-spel_one = ds_map_create();
-
-spel_one[? "name"] = "Magic punsh";
-spel_one[? "cost"] = 0;
-spel_one[? "dmg"] = 5;
-
-spel_one[? "rad"] = .3;
-
-spel_one[? "desc"] = "powerless but rentable";
-
-
-// Sors 2
-spel_tow = ds_map_create();
-
-spel_tow[? "name"] = "Fierball";
-spel_tow[? "cost"] = 11;
-spel_tow[? "dmg"] = 30;
-
-spel_tow[? "rad"] = .3;
-
-spel_tow[? "desc"] = "powerfull but expensive";
-
-// Sors 3
-spel_tree = ds_map_create();
-
-spel_tree[? "name"] = "Heal";
-spel_tree[? "cost"] = 10;
-spel_tree[? "dmg"] = 0;
-
-spel_tree[? "rec_life"] = 20;
-
-spel_tree[? "desc"] = "Hit an enemy restor your mana by ";
-
-// Sors 4
-spel_four = ds_map_create();
-
-spel_four[? "name"] = "magic cloud";
-spel_four[? "cost"] = 8;
-spel_four[? "dmg"] = 10;
-
-spel_four[? "rad"] = 2.5;
-
-spel_four[? "desc"] = "power less but hit in zoon";
+spel_init();
 
 
 
@@ -155,4 +102,45 @@ function change_page() {
 
     global.singleton_instance = new_hitbox;
     global.singleton_exists = true;
+}
+
+
+function lunch_spel()
+{
+	var spell = sples_list[| actual_page - 1];
+	
+	if((spell[? "cost"] > 0)  && (!mana_bar.check_mana_rent(spell[? "cost"]))) return;
+	
+	switch(spell)
+	{
+		case spel_zero: show_debug_message("++"); 
+		
+		break;
+		
+		
+		case spel_one: 
+			scr_punsh_weaknes(spell);
+		break;
+		
+		
+		case spel_tow: show_debug_message("cc");
+		
+		break;
+		
+		
+		case spel_tree: show_debug_message("dd"); 
+		
+		break;
+		
+		
+		case spel_four: 
+		
+		//show_debug_message("magic cloud"); 
+		
+		scr_punsh(spell);
+		
+		break;
+	}
+	
+	mana_bar.modify_health_value(spell[? "cost"] * -1);
 }
