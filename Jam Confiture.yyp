@@ -115,6 +115,8 @@
     {"id":{"name":"F2_Up1","path":"rooms/F2_Up1/F2_Up1.yy",},},
     {"id":{"name":"F2_Up2","path":"rooms/F2_Up2/F2_Up2.yy",},},
     {"id":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
+    {"id":{"name":"Boss_lvl_2_Attack","path":"sprites/Boss_lvl_2_Attack/Boss_lvl_2_Attack.yy",},},
+    {"id":{"name":"Boss_Lvl_2_Neutral","path":"sprites/Boss_Lvl_2_Neutral/Boss_Lvl_2_Neutral.yy",},},
     {"id":{"name":"Down","path":"sprites/Down/Down.yy",},},
     {"id":{"name":"IMG_000","path":"sprites/IMG_000/IMG_000.yy",},},
     {"id":{"name":"IMG_001","path":"sprites/IMG_001/IMG_001.yy",},},
