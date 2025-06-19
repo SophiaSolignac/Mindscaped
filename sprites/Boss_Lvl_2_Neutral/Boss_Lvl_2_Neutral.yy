@@ -12,21 +12,21 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5d20169a-85f2-4b19-a96c-d63200584f0b","name":"5d20169a-85f2-4b19-a96c-d63200584f0b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"dc06b524-6acd-4b42-8240-f9fe5657f6ec","name":"dc06b524-6acd-4b42-8240-f9fe5657f6ec","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1080,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e54f8ca4-e3ff-4f91-861b-6f19931fca35","blendMode":0,"displayName":"default","isLocked":false,"name":"e54f8ca4-e3ff-4f91-861b-6f19931fca35","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ee16b4e7-67ae-4a55-bac7-0130561d0719","blendMode":0,"displayName":"default","isLocked":false,"name":"ee16b4e7-67ae-4a55-bac7-0130561d0719","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Boss_Lvl_2_Neutral",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Lvl2",
-    "path":"folders/Sprites/Ennemys/Boss/Lvl2.yy",
+    "name":"Boss",
+    "path":"folders/Sprites/Ennemys/Boss.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -71,8 +71,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5d20169a-85f2-4b19-a96c-d63200584f0b","path":"sprites/Boss_Lvl_2_Neutral/Boss_Lvl_2_Neutral.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"123c9588-c76c-4982-b00c-db5c4a326e2a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dc06b524-6acd-4b42-8240-f9fe5657f6ec","path":"sprites/Boss_Lvl_2_Neutral/Boss_Lvl_2_Neutral.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6182065d-71b5-4aef-ac35-66eba6fb1b8c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
